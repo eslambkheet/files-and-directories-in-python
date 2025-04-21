@@ -1,0 +1,56 @@
+##Python Learning Plan for DevOps – Step by Step
+
+Week 1: Python Basics
+- Variables and data types.
+- Conditional statements: if, elif, else.
+- Loops: for, while.
+- Functions: def.
+🎯 Goal: A script that prints file contents or searches for a file.
+
+Week 2: File and Directory Management
+- os module
+- pathlib
+- Create – Delete – Copy – Move files and folders.
+🎯 Task: Script that searches for .log files and combines them.
+
+Week 3: Text and CSV Handling
+- Open/Read/Write txt and csv files.
+- csv module.
+🎯 Task: Script that reads CSV and sends alert if time is close.
+
+Week 4: Time and Scheduling
+- datetime and time modules.
+- Delays – Logging – Time differences.
+🎯 Task: Script that logs memory usage every 10 seconds.
+
+Week 5: System Commands
+- subprocess module.
+- Execute Bash / PowerShell commands.
+🎯 Task: Script runs df -h or ipconfig and saves output.
+
+Week 6: REST APIs
+- requests module.
+- GET, POST, headers, JSON.
+🎯 Task: Script fetches pipeline status or sends a Slack message.
+
+Week 7: CLI Tools
+- argparse module.
+- Handling external input.
+🎯 Task: Script accepts --dir argument and prints files inside.
+
+Week 8: System Resources
+- psutil module.
+- Check system status, disk usage, running processes.
+🎯 Task: Script monitors CPU usage and alerts if high.
+
+Week 9: Error Handling
+- try/except/finally.
+- Log errors to file.
+🎯 Task: Script processes files and logs any errors.
+
+Week 10: Final Project
+Combine all tools into one utility:
+- Monitor resources
+- Log actions
+- Send alerts
+- Provide CLI interface
